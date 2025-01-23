@@ -48,13 +48,23 @@ Shopping List for a Cake:1. Flour
 #### [AI - Not Allowed]
 #### Files `src/ProblemTwo.java`
 
-The equation of the area of a triangle is: $Area = \frac{base * height}{2}$
+The equation of the area of a triangle is: $Area = \frac{base \times height}{2}$. Written out that would be "base times height divided by two".
 
 Write a program in `src/ProblemTwo.java` to calculate the area of a triangle given a base of 3.5 and a height of 2.1. Be
 sure that your program includes one or more comments indicating how it works.
 
-1. [3.5pts] Write a program to calculate the area of a triangle as indicated above.
+1. [3.5pts] Write a program to calculate the area of a triangle as indicated above, using a value of 3.5 for the base and 2.1 for the height.
 2. [1.5pts] Write comments that indicate what your code does.
+
+---
+
+**FAQ 1:** When the program for problem 2 is run, I get an answer that is close... but has a bunch of trailing zeros and another number at the end. What should I do?
+
+**Ans 1:** If you run this and get an answer with a lot of trailing digits that is not an exact match, it is due to how single or double precision floating point numbers (float and double in Java) work. So if your answer looks something like this (not the actual answer): `7.245000000000001` and you meant for it to return `7.245` then that would be alright.
+
+**FAQ 2:** Does the answer need to use Scanner to get user input for the question? 
+
+**Ans 2:** You do not need to use Scanner for this problem to get user input. You just need to calculate the answer in Java using the values requested for base and height. We will be using Scanner in the next CCL.
 
 
 ## Problem 3 - Teach on a Code Animation - 5pts: Book Code Animation and Live Example 1.3
