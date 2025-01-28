@@ -14,6 +14,5 @@ public class ProblemFour {
         System.out.print("The perimeter of a rectangle with the same measurements are = ");
         System.out.print(perimeter);
         //I use System.out.print to display my messages on what I am evaluating, as well as a separate line that prints that evaluation.
-        //On line 13, I use "println" for my area so that after that, my evaluations for the perimeter can be printed on a separate line. If I just use print, everything would display on one line.
     }
 }
