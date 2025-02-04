@@ -69,8 +69,22 @@ and animation work. What concepts do they cover and what would you recommend the
 
 Write your answer below!
 ```
-Your answer goes here!
-
+Problem 1.3 in chapter 1.7 shows us how to perform math equations and display them in java. The animation shows us what 
+the code is supposed to look like while the example has us fill in some missing values. To start, our first line has our 
+class name. This basically expresses what we want we want the name/theme of this main set of code to be. The second line
+is a line of code that we use to set our main method for a program. A method is a collection of statements that we use to 
+perform an operation, and the "main" method is where we tell our program to start reading those statements. In this case, 
+that line would look like:
+    public static void main(String[] args) {}
+Within the parenthesis, we are basically telling the code that "you are gonna write this based from what I type." Following 
+that, there are a set of curly brackets that must be written within the code, so that the code can know to evaluate the 
+lines within those curly brackets. Line 3 of the code is a print line. System.out.print tells the program to display what 
+is written within its parenthesis. In line, 3, the expression is first written within a set of quotation marks. When a string 
+is written in a set of quotation marks, it tells the program to display that line as a message. Following that line, line 
+4 has us fill in the code per the animation example. The same expression is then written again, but without quotation marks. 
+This tells the code to actually evaluate that expression, and display the answer as a numeric value. Again, line 3 is 
+within parenthesis, so it displays the full equation out as a string, then, line 4 evaluates that same expression into 
+an actual numeric answer. This problem is a simple showing of how to run a mathematical expression in java.
 ```
 #### Point Categories:
 1. [5pts] - You provide an explanation including concepts to study as described above.
