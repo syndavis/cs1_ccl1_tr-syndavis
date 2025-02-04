@@ -85,7 +85,6 @@ is written in a set of quotation marks, it tells the program to display that lin
 This tells the code to actually evaluate that expression, and display the answer as a numeric value. Again, line 3 is 
 within parenthesis, so it displays the full equation out as a string, then, line 4 evaluates that same expression into 
 an actual numeric answer. This problem is a simple showing of how to run a mathematical expression in java.
-
 ```
 #### Point Categories:
 1. [5pts] - You provide an explanation including concepts to study as described above.
